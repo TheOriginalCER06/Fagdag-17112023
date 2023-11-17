@@ -1,10 +1,42 @@
 [
     {
       "navn": "John Doe",
-      "telefonnummer": "1234567890"
+      "telefonnummer": "12345678"
     },
     {
       "navn": "Jane Doe",
-      "telefonnummer": "0987654321"
+      "telefonnummer": "09876543"
+    },
+    {
+      "navn": "John Smith",
+      "telefonnummer": "12344321"
+    },
+    {
+      "navn": "Jane Smith",
+      "telefonnummer": "43211234"
+    },
+    {
+    "navn": "Ole",
+    "telefonnummer": "12345678"
+    },
+    {
+    "navn": "Dole",
+    "telefonnummer": "12345678"
+    },
+    {
+    "navn": "Doffen",
+    "telefonnummer": "12345678"
+    },
+    {
+    "navn": "Donald",
+    "telefonnummer": "12345678"
+    },
+    {
+    "navn": "Dolly",
+    "telefonnummer": "12345678"
+    },
+    {
+    "navn": "Albert",
+    "telefonnummer": "12345678"
     }
-  ]
+]
