@@ -1,10 +1,10 @@
 :root {
     --bg: #0174BE;
-    --text1: rgb(232, 247, 30);
+    --text1: #ffff00;
     --highlight: #f7eddf;
     --text2:rgb(153, 184, 67);
-    --link: #C08261;
-    --link-highlight: #6000c0;
+    --link: #ffff00;
+    --link-highlight: #8000ff;
 }
 html {
     box-sizing: border-box;
@@ -63,6 +63,7 @@ nav {
     font-weight: bold;
     text-decoration: none;
     margin: 0px;
+    margin-top: 20px;
     padding: 0px;
 }
 .navbar_links { /* id */
