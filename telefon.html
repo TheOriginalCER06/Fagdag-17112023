@@ -16,28 +16,6 @@
         <tbody id="table-body">
         </tbody>
     </table>
-    <script>
-        // Connect to the database
-        const connection = new XMLHttpRequest();
-        connection.open('GET', 'telefon.sql');
-        connection.onreadystatechange = function() {
-            if (this.readyState === 4 && this.status === 200) {
-                // Retrieve data from the "telefon" table
-                const data = JSON.parse(this.responseText);
-                const tableBody = document.getElementById('table-body');
-                data.forEach(row => {
-                    const tr = document.createElement('tr');
-                    const tdNavn = document.createElement('td');
-                    const tdTelefonnummer = document.createElement('td');
-                    tdNavn.textContent = row.navn;
-                    tdTelefonnummer.textContent = row.telefonnummer;
-                    tr.appendChild(tdNavn);
-                    tr.appendChild(tdTelefonnummer);
-                    tableBody.appendChild(tr);
-                });
-            }
-        };
-        connection.send();
-    </script>
+    <script src="telefon.js"></script>
 </body>
 </html>
