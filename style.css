@@ -1,8 +1,8 @@
 :root {
     --bg: #0174BE;
     --text1: #ffff00;
-    --highlight: #f7eddf;
-    --text2:rgb(153, 184, 67);
+    --highlight: #ffffee;
+    --text2:#ffff80;
     --link: #ffff00;
     --link-highlight: #00ffff;
 }
@@ -90,3 +90,17 @@ nav {
     background-color: var(--text1);
     text-decoration: none;
   }
+  tbody {
+    border: 1px solid var(--text2);
+}
+
+td {
+    color: var(--text2);
+}
+th {
+    color: var(--text1);
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
