@@ -46,6 +46,16 @@ p { /* tag */
     padding: 0px;
     margin-top: 20px
 }
+footer { /* tag */
+    background-color: var(--bg);
+    color: var(--text1);
+    font-size: 1.15em;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
 a { /* tag */
     color: var(--link);
     text-decoration: none;
