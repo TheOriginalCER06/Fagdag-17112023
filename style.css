@@ -30,6 +30,13 @@ h1 { /* tag */
     font-weight: bold;
     margin: 0px;
 }
+h2 {
+    text-align: center;
+    color: var(--text1);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+}
 p { /* tag */
     color: var(--text2);
     font-size: 1.15em;
@@ -37,6 +44,7 @@ p { /* tag */
     text-align: center;
     margin: 0px;
     padding: 0px;
+    margin-top: 20px
 }
 a { /* tag */
     color: var(--link);
